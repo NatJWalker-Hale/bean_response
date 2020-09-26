@@ -14,8 +14,11 @@ Code in this repository is provided as-is and comes with absolutely no warranty.
   - scripts
     - **calc_site_specific_divergence_aa.py**: script to calculate site-specific amino acid divergences
     - **parse_fasta.py**: utility
-- chimeras
+- statistics
   - data
-    - **chimera_data.csv**: CSV of chimera and fluorescence, expressed as fold-change over background (see analysis script for name correspondence)
+    - **fig_4a.csv**: CSV to reproduce fig 4a
+    - **fig_4b.csv**: CSV to reproduce fig 4b
+    - **fig_4c.csv**: CSV to reproduce fig 4c
+    - **fig_5.csv**: CSV to reproduce fig 5. Note that name correspondences are given in statistics/scripts/analysis.R
   - scripts
-    - **chimera_analysis.R**: R script for statistical analysis of chimera fluorescence data
+    - **analysis.R**: R script for statistical analysis
